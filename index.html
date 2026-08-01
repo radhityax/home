@@ -6,59 +6,57 @@
 <title>alif radhitya wardana</title>
 <style>
 body {
-	background: #fff;
-	color: #000;
-	font-family: sans-serif;
+	background: #c0c0c0; 	color: #000;
+	font-family: "Courier New", Courier, monospace;
 	margin: 0;
-	padding: 2em 1.5em;
-	display: flex;
-	justify-content: center;
-	min-height: 100vh;
+	padding: 1em;
+	font-size: 15px;
 }
-a { color: #005386; text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { color: #00c; } a:visited { color: #551a8b; } a:hover { text-decoration: underline; }
 
-.main { max-width: 26em; }
+.main {
+	max-width: 30em;
+	margin: 0 auto; 
+	background: #fff;
+	border: 1px solid #000;
+	padding: 1em 1.5em;
+}
+
+.avatar {
+	width: 6em;
+	height: 6em;
+	border: 1px solid #000;
+	object-fit: cover;
+	float: left; /* retro way: text wraps around it */
+	margin: 0 1em 0.5em 0;
+}
 
 h1 {
 	font-size: 1em;
 	font-weight: bold;
 	margin: 0 0 0.6em;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #17a;
 }
 
 p { margin: 0.3em 0; line-height: 1.5; }
 
 dl { margin: 0.8em 0 0; }
-dt { font-weight: bold; margin-top: 0.6em; font-size: 0.85em; text-transform: uppercase; color: #069; }
+dt { margin-top: 0.6em; font-weight: bold; }
 dd { margin: 0.1em 0 0; }
 
-hr { border: none; border-top: 1px solid #ddd; margin: 1em 0; }
-
-@media (prefers-color-scheme: dark) {
-	body { background: #000; color: #bdbdbd; }
-	a { color: #56c8ff; }
-	h1 { color: #56c8ff; }
-	dt { color: #56c8ff; }
-	hr { border-color: #222; }
-}
+hr { border: none; border-top: 1px solid #000; margin: 1em 0; }
 </style>
 </head>
 <body>
 
 <div class="main">
+	<img src="avatar.jpg" alt="avatar" class="avatar">
 	<h1>alif radhitya wardana</h1>
 
 	<p>electrical engineering &mdash; universitas negeri surabaya</p>
-
-	<p>c. golang. esp32. esp-idf.<br>
-	linux. freebsd. <br>
-	selfhoster <a href="https://laskarnix.org">laskarnix.org</a>.</p>
-
-	<hr>
-
+            <p>golang tinkerer. c struggler. mistake maker.</p>
+            <p>linux user. selfhoster. freedom seeker.</p>
+            <p>decentralization lover.</p>
+            <hr>
 	<dl>
 		<dt>email</dt>
 		<dd><a href="mailto:alif@radhitya.org">alif@radhitya.org</a></dd>
@@ -73,3 +71,4 @@ hr { border: none; border-top: 1px solid #ddd; margin: 1em 0; }
 
 </body>
 </html>
+
